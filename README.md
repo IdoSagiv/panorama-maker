@@ -22,6 +22,6 @@ Features are found using the [Harris Corner Detector](https://en.wikipedia.org/w
 Using a comparison between the [MOPS-like](https://www.cs.cornell.edu/courses/cs6670/2011sp/projects/p1/webpages/6/webpage.html) descriptors of the feature points of each image.<br/>
 ![oxford_matching_points](https://github.com/IdoSagiv/panorama-maker/blob/main/images/oxford_matching_points.png?raw=true)<br/>
 ### Different perspectives
-By taking strips from different locations in the frames in the stitching step, a different perspectives can be made.<br/>
+By taking strips from different locations in the frames and stitch them using the matching feature points, different perspectives of the scene can be made.<br/>
 ![first_perspective](https://github.com/IdoSagiv/panorama-maker/blob/main/perspective_panoramic_frames/boat/panorama01.png?raw=true)<br/>
 ![second_perspective](https://github.com/IdoSagiv/panorama-maker/blob/main/perspective_panoramic_frames/boat/panorama09.png?raw=true)<br/>
