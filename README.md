@@ -1,5 +1,5 @@
 # Panorama Maker
-This program that converts mp4 videos into a panorama.<br/>
+This program converts mp4 videos into a panorama.<br/>
 ![boat_panorama](https://github.com/IdoSagiv/panorama-maker/blob/main/images/boat_panorama.gif?raw=true)<br/>
 * the original video can be found [here](https://github.com/IdoSagiv/panorama-maker/blob/main/videos/boat.mp4)
 ## Technologeis and Supported OS
