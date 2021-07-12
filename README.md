@@ -1,6 +1,8 @@
 # Panorama Maker
 This program converts mp4 videos into a panorama.<br/>
-![boat_panorama](https://github.com/IdoSagiv/panorama-maker/blob/main/images/boat_panorama.gif?raw=true)<br/>
+<p align="center">
+    <img src="images/boat_panorama.gif">
+</p>
 * the original video can be found [here](https://github.com/IdoSagiv/panorama-maker/blob/main/videos/boat.mp4)
 ## Technologies And Tools
 This program is written in Python and using the libraries: 'numpy', 'mayplotlib', 'scipy' and 'imageio'.<br/>
@@ -16,8 +18,11 @@ The panorama making process is:
 ## Key Features
 ### Finding feature points
 Features are found using the [Harris Corner Detector](https://en.wikipedia.org/wiki/Harris_Corner_Detector) algorithm, and a [MOPS-like](https://www.cs.cornell.edu/courses/cs6670/2011sp/projects/p1/webpages/6/webpage.html) descriptor is extracted from each feature point.<br/>
-![oxford1_features](https://github.com/IdoSagiv/panorama-maker/blob/main/images/oxford1_feature_points.png?raw=true)<br/>
-![oxford2_features](https://github.com/IdoSagiv/panorama-maker/blob/main/images/oxford2_feature_points.png?raw=true)<br/>
+<p align="center">
+    <img src="images/oxford1_feature_points.png" width="450">
+    <img src="images/oxford2_feature_points.png" width="450">
+</p>
+
 ### Finding matching points between two images
 Using a comparison between the [MOPS-like](https://www.cs.cornell.edu/courses/cs6670/2011sp/projects/p1/webpages/6/webpage.html) descriptors of the feature points of each image.<br/>
 ![oxford_matching_points](https://github.com/IdoSagiv/panorama-maker/blob/main/images/oxford_matching_points.png?raw=true)<br/>
