@@ -1,8 +1,6 @@
 # Panorama Maker
 This program converts mp4 videos into a panorama.<br/>
-<p align="center">
-    <img src="images/boat_panorama.gif">
-</p>
+![boat_panorama](https://github.com/IdoSagiv/panorama-maker/blob/main/images/boat_panorama.gif?raw=true)<br/>
 * the original video can be found [here](https://github.com/IdoSagiv/panorama-maker/blob/main/videos/boat.mp4)
 ## Technologies And Tools
 This program is written in Python and using the libraries: 'numpy', 'mayplotlib', 'scipy' and 'imageio'.<br/>
